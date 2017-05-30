@@ -21,7 +21,15 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(express.static(process.cwd() + "/public"));
 
 // Database configuration with mongoose
-mongoose.connect("mongodb://localhost/metascrape");
+var databaseUri = "mongodb://localhost/metascrape";
+
+if (process.env.MONGODB_URI) {
+	mongoose.connect(process.env.MONGODB_URI);
+}
+else {
+	mongoose.connect(databaseUri);
+}
+
 var db = mongoose.connection;
 
 // Show any mongoose errors
