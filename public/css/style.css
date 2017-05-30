@@ -1,0 +1,75 @@
+body {
+	background-image: url("/images/movie.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: -10;
+}
+
+.nav {
+	background-color: black;
+	border-style: solid;
+	border-color: #ce6e6e;
+	border-radius: 8px;
+
+}
+
+textarea {
+
+	width: 100%;
+	height: 100px;
+}
+
+#articleDiv {
+	background-color: #b99494;
+	border-style: solid;
+	border-color: black;
+	overflow: auto;
+	height: 430px;
+}
+
+#imgTitle {
+	font-weight: bold;
+	font-style: italic;
+	font-size: 17px;
+}
+
+#movieDesc {
+
+}
+
+.movieDiv {
+	padding: 15px 5px 5px 5px;
+	float: left;
+	height: 500px;
+}
+
+#movieScore {
+	text-align: center;
+	font-size: 18px;
+}
+
+.movieImgPic {
+	position: relative;
+	left: 80px;
+}
+
+.saveMovie {
+	margin-top: 10px;
+	position: relative;
+	left: 108px;
+}
+
+.saveMovies, .deleteButton {
+	margin: 15px 15px 15px 20px;
+
+}
+
+button {
+	margin: 5px, 5px, 10px, 0px;
+}
+

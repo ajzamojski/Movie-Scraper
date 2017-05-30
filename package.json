@@ -1,0 +1,29 @@
+{
+  "name": "server.js",
+  "version": "1.0.0",
+  "description": "App that will scrape data from a website and display data with the ability to modify and add notes",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajzamojski/Movie-Scraper.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ajzamojski/Movie-Scraper/issues"
+  },
+  "homepage": "https://github.com/ajzamojski/Movie-Scraper#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cheerio": "^0.22.0",
+    "express": "^4.15.3",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^4.10.2",
+    "morgan": "^1.8.1",
+    "nodemon": "^1.11.0",
+    "request": "^2.81.0"
+  }
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>MovieScraper</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="/css/style.css">
+
+</head>
+<body>
+	<div class="container">
+		<ul class="nav nav-pills">
+		  <li role="presentation"><a href="/index.html">Home</a></li>
+		  <li role="presentation"><a href="#">Saved Movies</a></li>
+		</ul>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-8 col-md-offset-2" id="articleDiv">
+			</div>
+		</div>
+	</div>
+		  <div id="openNotes" class="modal fade" role="dialog">
+	      <div class="modal-dialog">
+	        <!-- Modal content-->
+	        <div class="modal-content">
+	          <div class="modal-header">
+	            <button type="button" class="close" data-dismiss="modal">&times;</button>
+	            <h4 class="modal-title">Comments</h4>
+	          </div>
+	          <div class="modal-body">
+	          <div class="commentSection"></div>
+	            <textarea id='bodyinput' name='body'></textarea>
+	          </div>
+	          <div class="modal-footer">
+	          	<button type="button" class="btn btn-default" id="newNote" id="deliverId" data-id="">Save</button>
+	            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	          </div>
+	        </div>
+	      </div>
+	  </div>
+	<script type="text/javascript" src="saved.js"></script>
+</body>
+</html>
