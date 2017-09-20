@@ -11,7 +11,7 @@ on the films that were saved to the database.![screenshot2](screenshot2.png)
 
 
 ## Technologies Used
-`HTML`, `Javascript`, `CSS`, `MongoDB`, ‘NodeJS, `Express`, ‘Cheerio’
+`HTML`, `Javascript`, `CSS`, `MongoDB`, `NodeJS`, `Express`, `Cheerio`
 
 ### Heroku Link
 [Click Here](https://moviescraper1.herokuapp.com/)
